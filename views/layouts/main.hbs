@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Express Test</title>
+  {{!-- bootstrap CSS --}}
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  {{!-- nav bar --}}
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="navbar-container">
+      <a class="navbar-brand" href="/">Home Page</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+    
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="/about">About</a>
+          <a class="nav-link" href="/portfolio">Portfolio</a>
+          <a class="nav-link" href="/contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  {{!-- partial templates --}}
+  <div class="container content">
+    {{{ body }}}
+  </div>
+  
+  {{!-- bootstrap js file --}}
+  <script src="/javascripts/popper.js"></script>
+  <script src="/javascripts/jquery-3.3.1.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+ </body>
+</html>
