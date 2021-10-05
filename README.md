@@ -3,6 +3,8 @@
 ## Features List ##
 
 * Click the button and turn to page.
+![Alt home_page](https://github.com/sh330035/express-practice/blob/main/public/img/home_page.png)
+![Alt portfolio_page](https://github.com/sh330035/express-practice/blob/main/public/img/portfolio_page.png)
 
 ## Prerequisites ##
 * Node.js
